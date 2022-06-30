@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --orange:#ffa500;
+  --blue1:#0AA1DD;
+  --blue2:#79DAE8;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  padding:0;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+*::selection{
+  background:var(--orange);
+  color:#fff;
+}
+.heading{
+    text-align: center;
+    padding:2.5rem 0
+}
+  
+.heading span{
+    font-size: 2rem;
+    background:rgba(0, 204, 255, 0.2);
+    color:var(--blue1);
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+}
+  
+.heading span.space{
+    background:none;
+}
+
+body table{
+    width: 60%;
+    border: 2 solid black;
+    border-radius: 1rem;
+    background-color: var(--orange);
+}
+
+body table td{
+    padding: 0 2rem;
+}
+
+body a{
+   color: white;
+   margin: .5rem auto;
+   padding: .5rem .5rem;
+   border-radius: .5rem;
+   display: block;
+   width: 30%;
+
+}
+body .tambah{ 
+   background-color: rgb(80, 226, 80);
+
+}
+
+body .home{ 
+    background-color: var(--blue1);
+ }
+ 
+ body .label{
+    margin:0;
+ }
+
+ .tambah-tiket tr label{
+   display: block;
+   text-align: center;
+ }
